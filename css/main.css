@@ -78,3 +78,39 @@ i{
 .list-item{
 	padding: .5em;
 }
+
+/*media queries*/
+@media only screen and (max-width: 1905px){
+	li{
+		width: 80%;
+	}	
+}
+@media only screen and (max-width: 1335px){
+	li{
+		width: 75%;
+	}
+}
+@media only screen and (max-width: 1135px){
+	.main, h1, footer{
+	width: 75%;
+	margin: 0 auto;
+	}
+	li{
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 890px){
+	.main, h1, footer{
+		width: 100%;
+		margin: 0 auto;
+	}
+	li{
+		width: 70%;
+	}
+	h1{
+		font-size: 2em;
+	}
+	li, footer, input{
+		font-size: 1em;
+	}
+}
