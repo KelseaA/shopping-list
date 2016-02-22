@@ -1,0 +1,80 @@
+body{
+/*	background-color: #333;*/
+	font-size: 16px;
+	color: #333;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+/*div{
+	border: solid 1px black;
+}*/
+
+
+h1, footer, .list-item:nth-child(odd) {
+	background-color: #6cc;
+}
+
+/*header area*/
+h1, footer{
+	text-align: center;
+	font-size: 3em;
+	letter-spacing: .1em;
+	padding: .75em 0;
+}
+
+/*footer area*/
+footer{
+	height: 2em;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 1.5em;
+}
+
+/*list area*/
+.main, h1, footer{
+	width: 50%;
+	margin: 0 auto;
+}
+h1, footer{
+	color: #fff;
+}
+.main{
+	background-color: #fff;
+	height: 100%;
+}
+ul{
+	list-style: none;
+	padding-left: 0;
+	margin: 2em 0;
+}
+li{
+	width: 25em;
+	display: inline-block;
+	margin: 0 1em;
+	font-size: 1.5em;
+	padding: .65em 0;
+}
+.add-item{
+	padding-top: 3em;
+	text-align: center;
+}
+input{
+	width: 14em;
+	height: 1.5em;
+	font-size: 1.5em;
+	border-radius: 1em;
+}
+input[placeholder], input[value]{
+	padding-left: .75em;
+}
+i{
+	font-size: 1.5em !important;
+	color: #333;
+}
+.list{
+	width: 75%;
+	margin: 0 auto;
+}
+.list-item{
+	padding: .5em;
+}
