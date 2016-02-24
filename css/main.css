@@ -1,15 +1,12 @@
+*:focus {
+    outline: none;
+}
 body{
-/*	background-color: #333;*/
 	font-size: 16px;
 	color: #333;
 	box-sizing: border-box;
 	font-family: 'Ubuntu', sans-serif;
 }
-/*div{
-	border: solid 1px black;
-}*/
-
-
 h1, footer, .list-item:nth-child(odd) {
 	background-color: #6cc;
 }
