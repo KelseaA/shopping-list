@@ -6,24 +6,49 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<div class="wrapper">
-		<header>
-			<h1>Shopping List</h1>
-		</header>
 		<div class="main">
+			<header>
+				<h1>Shopping List</h1>
+			</header>
 			<div class="add-item">
-				<input id ="enter-item" name="enterItem" type="text" autocomplete="off" placeholder="Enter Item">
-				<i class="fa fa-plus-circle add"></i>
+				<button class="add button">Add Item</button>
 			</div>
-			<div class="list">
-				<ul>
-				</ul>	
+			<div class="list-categories">
+				<div id="meat" class="chosen-category"></div>
+				<div id="bakery" class="chosen-category"></div>
+				<div id="dairy-eggs" class="chosen-category"></div>
+				<div id="produce" class="chosen-category"></div>
+				<div id="canned-foods" class="chosen-category"></div>
+				<div id="deli" class="chosen-category"></div>
+				<div id="frozen-foods" class="chosen-category"></div>
+				<div id="drinks" class="chosen-category"></div>
+			</div>
+			<div class="add-options">
+  				<input id="add-item-name" type="text" name="add-item-name" placeholder="Add item name" autofocus>
+  				
+  				<div id="categories-to-choose">
+					<p>Choose a category</p>
+  					<button data-category="meat" class="meat red button category-button">Meat</button>
+  					<button data-category="bakery" class="bakery orange button category-button">Bakery</button>
+					<button data-category="dairy-eggs" class="dairy-eggs yellow button category-button">Dairy/Eggs</button>
+					<button data-category="produce" class="produce green button category-button">Produce</button>
+					<button data-category="canned-foods" class="canned-foods blue button category-button">Canned Foods</button>
+					<button data-category="deli" class="deli indigo button category-button">Deli</button>
+					<button data-category="frozen-foods" class="frozen-foods purple button category-button">Frozen Foods</button>
+					<button data-category="drinks" class="drinks fuchsia button category-button">Drinks</button>
+				</div>
+				<div class="submit-buttons">
+					<button class="cancel button">Cancel</button>
+					<button class="submit button">Submit</button>
+				</div>
 			</div>	
 		</div>
-		<footer>Created by Kelsea Anderson</footer>
+		<footer></footer>
 	</div>
 
 	<script src="http://code.jquery.com/jquery.min.js"></script>
